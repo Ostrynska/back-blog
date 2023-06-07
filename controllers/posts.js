@@ -1,4 +1,4 @@
-const {Post} = require('../models/post');
+const Post = require('../models/post');
 const { HttpError, ctrlWrapper } = require("../helpers");
 
 const listPosts = async (req, res) => {
